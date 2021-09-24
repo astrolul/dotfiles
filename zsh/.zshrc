@@ -11,15 +11,13 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# prompt for tty
-autoload -Uz promptinit
-promptinit
-prompt gentoo
+# prompt
+autoload -U colors && colors
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # plugins
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
-[ -z "$DISPLAY" ] || source ~/.zsh-plugins/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # aliases
 alias ls="ls --color=auto"
@@ -27,6 +25,3 @@ alias mkdir="mkdir -p"
 
 # fetch
 neofetch
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[ -z "$DISPLAY" ] || [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

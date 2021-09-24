@@ -55,8 +55,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 slstatus &
-feh --bg-fill ~/wallpapers/gentoo-dracula.png
+feh --bg-fill ~/wallpapers/0012.jpg
 unclutter -idle 3 &
-xrdb -merge ~/.Xresources &
 picom --config ~/.config/picom/picom.conf &
 exec dwm

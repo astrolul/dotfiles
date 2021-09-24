@@ -43,9 +43,23 @@ settings:
   downloads.location.directory:
     global: /home/astrolul/Downloads
   fonts.default_family:
-    global: terminus
+    global: monospace
+  statusbar.padding:
+    global:
+      bottom: 1
+      left: 0
+      right: 0
+      top: 1
   tabs.favicons.scale:
     global: 1.5
+  tabs.max_width:
+    global: -1
+  tabs.padding:
+    global:
+      bottom: 0
+      left: 5
+      right: 5
+      top: 0
   url.default_page:
     global: https://searx.steew.cyou
   url.searchengines:
