@@ -17,8 +17,8 @@ promptinit
 prompt gentoo
 
 # plugins
-source ~/.zsh-plugins/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-source ~/.zsh-plugins/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 [ -z "$DISPLAY" ] || source ~/.zsh-plugins/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # aliases
