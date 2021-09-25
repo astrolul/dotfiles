@@ -18,7 +18,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 # plugins
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+[ -z "$DISPLAY" ] || source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # aliases
 alias ls="ls --color=auto"
@@ -28,4 +28,4 @@ alias mkdir="mkdir -p"
 neofetch
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[ -z "$DISPLAY" ] || [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
