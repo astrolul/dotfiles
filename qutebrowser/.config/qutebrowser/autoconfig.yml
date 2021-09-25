@@ -43,7 +43,7 @@ settings:
   downloads.location.directory:
     global: /home/astrolul/Downloads
   fonts.default_family:
-    global: monospace
+    global: Terminus
   statusbar.padding:
     global:
       bottom: 5
