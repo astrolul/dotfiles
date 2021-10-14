@@ -7,13 +7,14 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/astrolul/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
 # End of lines added by compinstall
 
 # prompt
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+promptinit
+prompt gentoo
 
 # plugins
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
@@ -24,4 +25,4 @@ alias ls="ls --color=auto"
 alias mkdir="mkdir -p"
 
 # fetch
-neofetch
+pfetch
