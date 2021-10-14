@@ -58,5 +58,4 @@ slstatus &
 feh --bg-fill ~/wallpapers/dracula-pacman.png
 unclutter -idle 3 &
 xrdb -merge ~/.Xresources &
-picom --config ~/.config/picom/picom.conf &
 exec dwm
