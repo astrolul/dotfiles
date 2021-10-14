@@ -21,7 +21,7 @@ source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 
 # aliases
-alias ls="ls --color=auto"
+alias ls="exa --icons"
 alias mkdir="mkdir -p"
 
 # fetch
