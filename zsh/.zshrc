@@ -13,20 +13,15 @@ compinit
 
 # prompt
 autoload -U colors && colors
-promptinit
-prompt gentoo
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # plugins
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
-[ -z "$DISPLAY" ] || source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # aliases
 alias ls="exa --icons"
 alias mkdir="mkdir -p"
 
 # fetch
-pfetch
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[ -z "$DISPLAY" ] || [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+neofetch

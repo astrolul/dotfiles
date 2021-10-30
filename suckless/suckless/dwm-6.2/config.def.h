@@ -11,9 +11,9 @@ static const char *fonts[]          = { "Hack Nerd Font:size=15" };
 static const char dmenufont[]       = "Hack Nerd Font:size=15";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#f8f8f2";
-static const char col_gray4[]       = "#282a36";
-static const char col_cyan[]        = "#bd93f9";
+static const char col_gray3[]       = "#d8dbd9";
+static const char col_gray4[]       = "#1d1f21";
+static const char col_cyan[]        = "#009edd";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },

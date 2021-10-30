@@ -96,14 +96,14 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
   /* 8 normal colors */
-  [0] = "#1d1f21", /* black   */
+  [0] = "#282a2e", /* black   */
   [1] = "#e1373c", /* red     */
   [2] = "#61bc44", /* green   */
   [3] = "#fdb922", /* yellow  */
   [4] = "#009edd", /* blue    */
   [5] = "#973b98", /* magenta */
   [6] = "#009edd", /* cyan    */
-  [7] = "#707880", /* white   */
+  [7] = "#d8dbd9", /* white   */
 
   /* 8 bright colors */
   [8]  = "#373b41", /* black   */
@@ -113,11 +113,11 @@ static const char *colorname[] = {
   [12] = "#009edd", /* blue    */
   [13] = "#973b98", /* magenta */
   [14] = "#009edd", /* cyan    */
-  [15] = "#c5c8c6", /* white   */
+  [15] = "#d8dbd9", /* white   */
 
   /* special colors */
   [256] = "#1d1f21", /* background */
-  [257] = "#c5c8c6", /* foreground */
+  [257] = "#d8dbd9", /* foreground */
 };
 
 /*
@@ -134,8 +134,9 @@ static unsigned int defaultrcs = 257;
  * will reverse too. Another logic would only make the simple feature too
  * complex.
  */
-unsigned int defaultitalic = 7;
-unsigned int defaultunderline = 7;
+static unsigned int defaultitalic = 7;
+static unsigned int defaultunderline = 7;
+
 /*
  * Default shape of cursor
  * 2: Block ("█")
