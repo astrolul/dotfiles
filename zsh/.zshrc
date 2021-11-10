@@ -12,8 +12,10 @@ compinit
 # End of lines added by compinstall
 
 # prompt
+autoload -Uz promptinit
+promptinit
+prompt gentoo
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # plugins
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
@@ -24,4 +26,4 @@ alias ls="exa --icons"
 alias mkdir="mkdir -p"
 
 # fetch
-neofetch
+pfetch
