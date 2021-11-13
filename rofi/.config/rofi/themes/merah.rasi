@@ -6,9 +6,9 @@
 
 * {
     font: "Hack Nerd Font 15";
-    foreground: #f8f8f2;
-    background-color: #282a36;
-    active-background: #bd93f9;
+    foreground: #c8ccd4;
+    background-color: #1e222a;
+    active-background: #c678dd;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
