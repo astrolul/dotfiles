@@ -57,4 +57,5 @@ fi
 feh --bg-fill ~/wallpapers/Vv2wVhv.png
 xrdb -merge ~/.Xresources
 unclutter -idle 3 &
+thunar --daemon &
 exec dwm
