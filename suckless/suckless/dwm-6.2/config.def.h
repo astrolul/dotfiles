@@ -57,7 +57,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun", "-theme", "merah", "-show-icons", NULL };
+static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-show-icons", NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
