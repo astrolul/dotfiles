@@ -56,6 +56,7 @@ fi
 
 feh --bg-fill ~/wallpapers/Vv2wVhv.png
 xrdb -merge ~/.Xresources
+picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-thunar --daemon &
+#thunar --daemon &
 exec dwm
