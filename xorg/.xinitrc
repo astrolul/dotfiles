@@ -58,5 +58,5 @@ feh --bg-fill ~/wallpapers/Vv2wVhv.png
 xrdb -merge ~/.Xresources
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-#thunar --daemon &
-exec dwm
+dbus-launch thunar --daemon &
+exec dbus-run-session dwm
