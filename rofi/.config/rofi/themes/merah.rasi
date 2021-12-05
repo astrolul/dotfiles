@@ -5,7 +5,7 @@
 // ================================================ */
 
 * {
-    font: "Hack Nerd Font 15";
+    font: "Hack Nerd Font 14";
     foreground: #c8ccd4;
     background-color: #1e222a;
     active-background: #c678dd;

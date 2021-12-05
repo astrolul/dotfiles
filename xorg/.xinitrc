@@ -56,6 +56,9 @@ fi
 
 feh --bg-fill ~/wallpapers/Vv2wVhv.png
 xrdb -merge ~/.Xresources
+picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-thunar --daemon &
-exec dwm
+dbus-launch thunar --daemon &
+dunst --config ~/.config/dunst/dunstrc &
+notify-send "Welcome to Astro's DWM Rice" "OS: $(. /etc/os-release; echo $NAME)" --icon "computer"
+exec dbus-run-session dwm
