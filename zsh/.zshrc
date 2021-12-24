@@ -16,8 +16,8 @@ PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
 autoload -U colors && colors
 
 # plugins
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases
 alias ls="exa --icons"
