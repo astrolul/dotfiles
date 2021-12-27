@@ -2,9 +2,9 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/astrolul/.gtkrc-2.0.mine"
-gtk-theme-name="Dracula"
+gtk-theme-name="Arc-Dark"
 gtk-icon-theme-name="Papirus-Dark"
-gtk-font-name="Terminus 15"
+gtk-font-name="Hack Nerd Font 15"
 gtk-cursor-theme-name="Bibata-Modern-Ice"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH_HORIZ
