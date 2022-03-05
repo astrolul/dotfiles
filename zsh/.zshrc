@@ -20,7 +20,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases
-alias ls="exa --icons"
+alias ls="exa --icons --colour=never"
 alias mkdir="mkdir -p"
 
 # fetch
