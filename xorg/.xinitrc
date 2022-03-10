@@ -54,7 +54,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-feh --bg-fill ~/wallpapers/Vv2wVhv.png
+feh --bg-scale ~/wallpapers/QDtSKvQ.png
 xrdb -merge ~/.Xresources
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &

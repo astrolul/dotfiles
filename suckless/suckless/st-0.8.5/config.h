@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=31:antialias=true:autohint=true";
+static char *font = "Terminus:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 15;
 
 /*
@@ -95,47 +95,40 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+
   /* 8 normal colors */
-  [0] = "#201f22", /* black   */
-  [1] = "#ffffff", /* red     */
-  [2] = "#ffffff", /* green   */
-  [3] = "#ffffff", /* yellow  */
-  [4] = "#ffffff", /* blue    */
-  [5] = "#ffffff", /* magenta */
-  [6] = "#ffffff", /* cyan    */
-  [7] = "#ffffff", /* white   */
+  [0] = "#222439", /* black   */
+  [1] = "#a54242", /* red     */
+  [2] = "#8c9440", /* green   */
+  [3] = "#de935f", /* yellow  */
+  [4] = "#5f819d", /* blue    */
+  [5] = "#85678f", /* magenta */
+  [6] = "#5e8d87", /* cyan    */
+  [7] = "#707880", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#ffffff", /* black   */
-  [9]  = "#ffffff", /* red     */
-  [10] = "#ffffff", /* green   */
-  [11] = "#ffffff", /* yellow  */
-  [12] = "#ffffff", /* blue    */
-  [13] = "#ffffff", /* magenta */
-  [14] = "#ffffff", /* cyan    */
-  [15] = "#ffffff", /* white   */
+  [8]  = "#373b41", /* black   */
+  [9]  = "#cc6666", /* red     */
+  [10] = "#b5bd68", /* green   */
+  [11] = "#f0c674", /* yellow  */
+  [12] = "#81a2be", /* blue    */
+  [13] = "#b294bb", /* magenta */
+  [14] = "#8abeb7", /* cyan    */
+  [15] = "#c5c8c6", /* white   */
 
   /* special colors */
-  [256] = "#201f22", /* background */
-  [257] = "#ffffff", /* foreground */
+  [256] = "#222439", /* background */
+  [257] = "#c5c8c6", /* foreground */
 };
 
 /*
  * Default colors (colorname index)
- * foreground, background, cursor
+ * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 unsigned int defaultcs = 257;
-unsigned int defaultrcs = 257;
-
-/*
- * Colors used, when the specific fg == defaultfg. So in reverse mode this
- * will reverse too. Another logic would only make the simple feature too
- * complex.
- */
-static unsigned int defaultitalic = 7;
-static unsigned int defaultunderline = 7;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor

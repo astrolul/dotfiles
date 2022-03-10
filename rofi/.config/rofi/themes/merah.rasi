@@ -5,10 +5,10 @@
 // ================================================ */
 
 * {
-    font: "Hack Nerd Font 14";
-    foreground: #c8ccd4;
-    background-color: #1e222a;
-    active-background: #c678dd;
+    font: "Terminus Bold 16";
+    foreground: #ffffff;
+    background-color: #222439;
+    active-background: #555a8c;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
