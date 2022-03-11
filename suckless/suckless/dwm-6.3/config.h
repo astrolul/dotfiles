@@ -13,7 +13,7 @@ static const char *fonts[]          = { "Terminus:style=bold:size=16" };
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#c5c8c6";
-static const char col_gray4[]       = "#222222";
+static const char col_gray4[]       = "#c5c8c6";
 static const char col_cyan[]        = "#555a8c";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
