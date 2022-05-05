@@ -22,6 +22,10 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # aliases
 alias ls="exa --icons --colour=never"
 alias mkdir="mkdir -p"
+alias wine="PULSE_LATENCY_MSEC=10 wine"
 
 # fetch
 neofetch
+
+# Created by `pipx` on 2022-03-19 18:06:59
+export PATH="$PATH:/home/astrolul/.local/bin"
