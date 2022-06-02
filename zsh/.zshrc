@@ -16,16 +16,12 @@ PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
 autoload -U colors && colors
 
 # plugins
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 
 # aliases
 alias ls="exa --icons --colour=never"
 alias mkdir="mkdir -p"
-alias wine="PULSE_LATENCY_MSEC=10 wine"
 
 # fetch
 neofetch
-
-# Created by `pipx` on 2022-03-19 18:06:59
-export PATH="$PATH:/home/astrolul/.local/bin"
