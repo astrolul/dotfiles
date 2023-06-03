@@ -55,11 +55,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 xrandr --output DP-2 --dpi 96 --mode 1680x1050 --rate 60 --rotate left --right-of HDMI-0 --output HDMI-0 --dpi 96 --mode 1920x1080 --rate 74.97 --panning 1920x1080+0+300
-feh --bg-fill ~/wallpapers/gentoo-1080p.png
+feh --bg-fill ~/wallpapers/solarized.png
 xrdb -merge ~/.Xresources
+xscreensaver &
+/usr/bin/lxqt-policykit-agent &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-dbus-launch thunar --daemon &
 dunst --config ~/.config/dunst/dunstrc &
-notify-send "Welcome to Astro's DWM Rice" "OS: $(. /etc/os-release; echo $NAME)" --icon "computer"
-exec dbus-run-session dwm
+exec dwm

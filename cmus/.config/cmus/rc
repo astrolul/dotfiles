@@ -1,2 +1,4 @@
 set output_plugin=pulse
-add ~/drive1/media/Music
+add /home/astrolul/drive1/media/Pirated Music/
+set status_display_program=cmusfm
+colorscheme solarized-dark

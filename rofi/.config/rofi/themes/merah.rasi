@@ -5,10 +5,10 @@
 // ================================================ */
 
 * {
-    font: "Terminus Bold 16";
-    foreground: #ffffff;
-    background-color: #222439;
-    active-background: #555a8c;
+    font: "Terminus (TTF) Bold 16";
+    foreground: #839496;
+    background-color: #002b36;
+    active-background: #073642;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
