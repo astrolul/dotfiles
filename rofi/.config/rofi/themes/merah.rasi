@@ -5,7 +5,7 @@
 // ================================================ */
 
 * {
-    font: "Terminus (TTF) Bold 16";
+    font: "Terminus (TTF) Bold 24";
     foreground: #839496;
     background-color: #002b36;
     active-background: #073642;
