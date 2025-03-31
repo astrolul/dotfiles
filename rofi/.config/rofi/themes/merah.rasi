@@ -6,9 +6,9 @@
 
 * {
     font: "Terminus (TTF) Bold 24";
-    foreground: #839496;
-    background-color: #002b36;
-    active-background: #073642;
+    foreground: #ffffff;
+    background-color: #1d1f21;
+    active-background: #fba922;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
