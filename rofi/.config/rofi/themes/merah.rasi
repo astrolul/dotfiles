@@ -18,7 +18,7 @@
 }
 
 #window {
-    background-color: @background;
+    background-color: @background-color;
     border:           3;
     border-radius: 0;
     border-color: @bordercolor;
@@ -53,12 +53,12 @@
     border:  0px;
 }
 #element.normal.normal {
-    background-color: @background;
+    background-color: @background-color;
     text-color:       @foreground;
 }
 #element.normal.urgent {
-    background-color: @urgent-background;
-    text-color:       @urgent-foreground;
+    background-color: @background-color;
+    text-color:       @foreground;
 }
 #element.normal.active {
     background-color: @active-background;
@@ -77,7 +77,7 @@
     text-color:       @foreground;
 }
 #element.alternate.normal {
-    background-color: @background;
+    background-color: @background-color;
     text-color:       @foreground;
 }
 #element.alternate.urgent {
