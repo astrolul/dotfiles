@@ -62,5 +62,5 @@ xrdb -merge ~/.Xresources
 #/usr/bin/lxqt-policykit-agent &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-#dunst --config ~/.config/dunst/dunstrc &
+dunst --config ~/.config/dunst/dunstrc &
 exec dwm
