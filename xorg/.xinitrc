@@ -56,11 +56,11 @@ fi
 
 xrandr --output eDP-1 -mode 2256x1504 -rate 60.00
 xrandr --dpi 160
-feh --bg-fill ~/wallpapers/Geeko-horizon-green.png
+feh --bg-fill ~/wallpapers/arch.png
 xrdb -merge ~/.Xresources
-xscreensaver &
-/usr/bin/lxqt-policykit-agent &
+#xscreensaver &
+#/usr/bin/lxqt-policykit-agent &
 #picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-dunst --config ~/.config/dunst/dunstrc &
+#dunst --config ~/.config/dunst/dunstrc &
 exec dwm
