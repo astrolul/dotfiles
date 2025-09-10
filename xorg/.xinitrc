@@ -60,7 +60,7 @@ feh --bg-fill ~/wallpapers/arch.png
 xrdb -merge ~/.Xresources
 #xscreensaver &
 #/usr/bin/lxqt-policykit-agent &
-#picom --config ~/.config/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
 #dunst --config ~/.config/dunst/dunstrc &
 exec dwm
