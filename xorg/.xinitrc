@@ -56,12 +56,13 @@ fi
 
 xrandr --output eDP-1 -mode 2256x1504 -rate 60.00
 xrandr --dpi 160
-feh --bg-fill ~/wallpapers/arch.png
+gentoo-pipewire-launcher &
+feh --bg-fill ~/wallpapers/gentoo.png
 xrdb -merge ~/.Xresources
 xprop -root -set WM_NAME "$(uname -r)"
 #xscreensaver &
 #/usr/bin/lxqt-policykit-agent &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-dunst --config ~/.config/dunst/dunstrc &
-exec dwm
+#dunst --config ~/.config/dunst/dunstrc &
+exec dbus-run-session dwm
