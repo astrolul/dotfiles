@@ -7,8 +7,8 @@
 * {
     font: "TerminessNerdFont 26";
     foreground: #fefefe;
-    background-color: #282a36;
-    active-background: #bc92f8;
+    background-color: #282828;
+    active-background: #d79921;
     urgent-background: #ff5555;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;

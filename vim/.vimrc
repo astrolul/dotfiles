@@ -14,6 +14,6 @@ set showmatch
 set hlsearch
 set wildmenu
 set wildmode=list:longest
-colorscheme dracula
+colorscheme gruvbox
 hi Normal guibg=NONE
 hi Normal ctermbg=NONE
