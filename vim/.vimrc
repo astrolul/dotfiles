@@ -15,5 +15,6 @@ set hlsearch
 set wildmenu
 set wildmode=list:longest
 colorscheme gruvbox
+set background=dark
 hi Normal guibg=NONE
 hi Normal ctermbg=NONE
