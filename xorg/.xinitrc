@@ -59,7 +59,7 @@ xrandr --dpi 160
 gentoo-pipewire-launcher &
 feh --bg-fill ~/wallpapers/gruvbox-custom.png
 xrdb -merge ~/.Xresources
-xprop -root -set WM_NAME " $(uname -r) "
+xprop -root -set WM_NAME "   $(uname -r) "
 #xscreensaver &
 #/usr/bin/lxqt-policykit-agent &
 picom --config ~/.config/picom/picom.conf &
