@@ -64,5 +64,5 @@ xprop -root -set WM_NAME " $(uname -r) "
 #/usr/bin/lxqt-policykit-agent &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
-#dunst --config ~/.config/dunst/dunstrc &
+dunst --config ~/.config/dunst/dunstrc &
 exec dbus-run-session dwm

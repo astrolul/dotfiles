@@ -20,3 +20,5 @@ let g:airline_theme='base16_gruvbox_dark_hard'
 let g:airline_powerline_fonts = 0
 hi Normal guibg=NONE
 hi Normal ctermbg=NONE
+" Start NERDTree and put the cursor back in the other window.
+autocmd VimEnter * NERDTree | wincmd p
