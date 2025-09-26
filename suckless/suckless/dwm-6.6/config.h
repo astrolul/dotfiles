@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#include <X11/XF86keysym.h>
+
 /* appearance */
 static const unsigned int borderpx  = 5;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
@@ -11,6 +13,8 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 48;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const char *fonts[]          = { "TerminessNerdFont-Regular:size=16" };
 static const char dmenufont[]       = "monospace:size=10";
+static const char *brupcmd[] 		= { "brightnessctl", "set", "10%+", NULL };
+static const char *brdowncmd[] 		= { "brightnessctl", "set", "10%-", NULL };
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#282a36";
 static const char col_gray3[]       = "#bababa";
@@ -67,9 +71,11 @@ static const char *termcmd[]  = { "st", NULL };
 #include "movestack.c"
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ 0, XF86XK_MonBrightnessUp,               spawn,          {.v = brupcmd} },
+    { 0, XF86XK_MonBrightnessDown,             spawn,          {.v = brdowncmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY,			XK_space,  spawn,	   {.v = roficmd } },
-	{ MODKEY,             		XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,						XK_space,  spawn,	   		{.v = roficmd } },
+	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
