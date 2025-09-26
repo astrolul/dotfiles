@@ -8,7 +8,7 @@
 static char *font = "TerminessNerdFont-Regular:pixelsize=30:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"PowerlineSymbols:pixelsize=30:antialias=true:autohint=true",
+	"PowerlineSymbols:style=Medium:pixelsize=30:antialias=true:autohint=true",
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
