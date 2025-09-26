@@ -9,6 +9,7 @@ zstyle :compinstall filename '/home/astrolul/.zshrc'
 
 autoload -Uz compinit promptinit
 compinit
+promptinit; prompt gentoo
 # End of lines added by compinstall
 
 # prompt
@@ -19,11 +20,9 @@ autoload -U colors && colors
 #source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 #source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 # aliases
-alias ls="exa --icons --colour=never"
+export EDITOR=vim
 alias mkdir="mkdir -p"
-
-# fetch
-neofetch
+alias ls="ls -la"
