@@ -62,4 +62,5 @@ xprop -root -set WM_NAME "   $(uname -r) "
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
 dunst --config ~/.config/dunst/dunstrc &
-exec dwm
+pipewire &
+exec dbus-run-session dwm
