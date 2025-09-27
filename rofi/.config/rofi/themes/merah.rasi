@@ -5,7 +5,7 @@
 // ================================================ */
 
 * {
-    font: "TerminessNerdFont 26";
+    font: "TerminessNerdFont 15";
     foreground: #fefefe;
     background-color: #282828;
     active-background: #d79921;

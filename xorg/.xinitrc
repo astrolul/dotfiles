@@ -54,13 +54,12 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-xrandr --output eDP-1 -mode 2256x1504 -rate 60.00
-xrandr --dpi 160
-gentoo-pipewire-launcher &
-feh --bg-fill ~/wallpapers/gruvbox-custom.png
+xrandr --output LVDS-1 -mode 1366x768 -rate 60.00
+xrandr --dpi 100
+feh --bg-fill ~/wallpapers/void.png
 xrdb -merge ~/.Xresources
-xprop -root -set WM_NAME "   $(uname -r) "
+xprop -root -set WM_NAME "   $(uname -r) "
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
 dunst --config ~/.config/dunst/dunstrc &
-exec dbus-run-session dwm
+exec dwm
