@@ -67,6 +67,7 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-show-icons", "-steal-focus", NULL };
 static const char *rofiemojicmd[] = { "rofi", "-modi", "emoji", "-show", "emoji", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-steal-focus", NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
+static const char *screenshotcmd[] = {"flameshot", "gui", NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 #include "movestack.c"
@@ -74,6 +75,7 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ 0, XK_F9,               spawn,          {.v = brupcmd} },
     { 0, XK_F8,             spawn,          {.v = brdowncmd} },
+	{ 0, XK_F12,			spawn,			{.v = screenshotcmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,						XK_space,  spawn,	   		{.v = roficmd } },
 	{ MODKEY,						XK_e,	   spawn,			{.v = rofiemojicmd } },
