@@ -3,7 +3,7 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = 5;        /* border pixel of windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
@@ -71,8 +71,8 @@ static const char *termcmd[]  = { "st", NULL };
 #include "movestack.c"
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ 0, XF86XK_MonBrightnessUp,               spawn,          {.v = brupcmd} },
-    { 0, XF86XK_MonBrightnessDown,             spawn,          {.v = brdowncmd} },
+	{ 0, XK_F9,               spawn,          {.v = brupcmd} },
+    { 0, XK_F8,             spawn,          {.v = brdowncmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,						XK_space,  spawn,	   		{.v = roficmd } },
 	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },

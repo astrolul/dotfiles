@@ -56,7 +56,7 @@ fi
 
 xrandr --output LVDS-1 -mode 1366x768 -rate 60.00
 xrandr --dpi 100
-feh --bg-fill ~/wallpapers/void.png
+feh --bg-fill ~/wallpapers/void-fixed.png
 xrdb -merge ~/.Xresources
 xprop -root -set WM_NAME "   $(uname -r) "
 picom --config ~/.config/picom/picom.conf &
