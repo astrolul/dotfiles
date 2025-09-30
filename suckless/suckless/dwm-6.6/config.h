@@ -65,6 +65,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-show-icons", "-steal-focus", NULL };
+static const char *rofiemojicmd[] = { "rofi", "-modi", "emoji", "-show", "emoji", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-steal-focus", NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
@@ -75,6 +76,7 @@ static const Key keys[] = {
     { 0, XK_F8,             spawn,          {.v = brdowncmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,						XK_space,  spawn,	   		{.v = roficmd } },
+	{ MODKEY,						XK_e,	   spawn,			{.v = rofiemojicmd } },
 	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
