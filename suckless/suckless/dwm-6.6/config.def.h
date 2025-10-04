@@ -4,14 +4,14 @@
 
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 4;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 #define ICONSIZE 24   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 static const int user_bh            = 32;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char *fonts[]          = { "TerminessNerdFont-Regular:size=16" };
+static const char *fonts[]          = { "TerminessNerdFont:style=bold:size=16" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char *brupcmd[] 		= { "brightnessctl", "set", "10%+", NULL };
 static const char *brdowncmd[] 		= { "brightnessctl", "set", "10%-", NULL };
