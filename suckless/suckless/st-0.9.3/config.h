@@ -10,7 +10,7 @@ static char *font = "TerminessNerdFont-Regular:pixelsize=30:antialias=true:autoh
 static char *font2[] = {
 	"Noto Color Emoji:style=Regular:pixelsize=30:antialias=true:autohint=true",
 };
-static int borderpx = 15;
+static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
