@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source ~/.dbus/session-bus/$(cat /var/lib/dbus/machine-id)-0
+export DISPLAY=:0
 
 if [ -z "$BATTERY" ]; then
     BATTERY=$(cat /sys/class/power_supply/BAT*/capacity 2>/dev/null | head -n1)
