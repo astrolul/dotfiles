@@ -6,7 +6,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static const int user_bh = 8;               /* add an defined amount of pixels to the bar height */
 
 static const char *fonts[] = {
-	"TerminessNerdFont-Regular:size=16"
+	"TerminessNerdFont:style=bold:size=16"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {

@@ -11,7 +11,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 #define ICONSIZE 32   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 static const int user_bh            = 48;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char *fonts[]          = { "TerminessNerdFont-Regular:size=16" };
+static const char *fonts[]          = { "TerminessNerdFont:style=bold:size=16" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char *brupcmd[] 		= { "brightnessctl", "set", "10%+", NULL };
 static const char *brdowncmd[] 		= { "brightnessctl", "set", "10%-", NULL };
@@ -65,7 +65,9 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *roficmd[] = { "rofi", "-modi", "drun", "-show", "drun", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-show-icons", "-steal-focus", NULL };
+static const char *rofiemojicmd[] = { "rofi", "-modi", "emoji", "-show", "emoji", "-theme", "/home/astrolul/.config/rofi/themes/merah.rasi", "-steal-focus", NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
+static const char *screenshotcmd[] = {"flameshot", "gui", NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 #include "movestack.c"
@@ -73,8 +75,10 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ 0, XF86XK_MonBrightnessUp,               spawn,          {.v = brupcmd} },
     { 0, XF86XK_MonBrightnessDown,             spawn,          {.v = brdowncmd} },
+	{ 0, XK_F12,			spawn,			{.v = screenshotcmd} },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,						XK_space,  spawn,	   		{.v = roficmd } },
+	{ MODKEY,						XK_e,	   spawn,			{.v = rofiemojicmd } },
 	{ MODKEY,             			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
