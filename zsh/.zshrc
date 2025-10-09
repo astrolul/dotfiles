@@ -27,10 +27,6 @@ export EDITOR=vim
 alias mkdir="mkdir -p"
 alias ls="ls -la"
 
-#if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-#  tmux attach-session -t default || tmux new-session -s default
-#fi
-
 if [[ $DISPLAY =~ ^:[0-9]+$ ]] && command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t default || tmux new-session -s default
 fi
