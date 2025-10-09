@@ -26,3 +26,7 @@ source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 export EDITOR=vim
 alias mkdir="mkdir -p"
 alias ls="ls -la"
+
+if [[ $DISPLAY =~ ^:[0-9]+$ ]] && command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+  tmux attach-session -t default || tmux new-session -s default
+fi
