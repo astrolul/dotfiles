@@ -57,7 +57,7 @@ fi
 xrandr --output eDP-1 -mode 2256x1504 -rate 60.00
 xrandr --dpi 160
 gentoo-pipewire-launcher &
-feh --bg-fill ~/wallpapers/surface.png
+feh --bg-fill ~/wallpapers/apple.png
 xrdb -merge ~/.Xresources
 xprop -root -set WM_NAME "   $(uname -r) "
 picom --config ~/.config/picom/picom.conf &
