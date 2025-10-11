@@ -6,7 +6,7 @@
 
 * {
     font: "TerminessNerdFont Bold 26";
-    foreground: #fefefe;
+    foreground: #fbf1c7;
     background-color: #282828;
     active-background: #d79921;
     urgent-background: #ff5555;
