@@ -1,11 +1,11 @@
 --- st.c
 +++ st.c
-@@ -2644,8 +2558,6 @@ drawregion(int x1, int y1, int x2, int y2)
+@@ -2730,6 +2816,8 @@ drawregion(int x1, int y1, int x2, int y2)
  			continue;
  
  		term.dirty[y] = 0;
--		unhighlighturlsline(y);
--		highlighturlsline(y);
++		unhighlighturlsline(y);
++		highlighturlsline(y);
  		xdrawline(term.line[y], x1, y, x2);
  	}
  }

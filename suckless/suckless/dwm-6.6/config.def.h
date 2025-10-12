@@ -15,10 +15,10 @@ static const char *fonts[]          = { "TerminessNerdFont:style=bold:size=16" }
 static const char dmenufont[]       = "monospace:size=10";
 static const char *brupcmd[] 		= { "brightnessctl", "set", "10%+", NULL };
 static const char *brdowncmd[] 		= { "brightnessctl", "set", "10%-", NULL };
-static const char col_gray1[]       = "#222222";
+static const char col_gray1[]       = "#1d2021";
 static const char col_gray2[]       = "#282a36";
-static const char col_gray3[]       = "#bababa";
-static const char col_gray4[]       = "#fefefe";
+static const char col_gray3[]       = "#a89984";
+static const char col_gray4[]       = "#fbf1c7";
 static const char col_cyan[]        = "#d79921";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
