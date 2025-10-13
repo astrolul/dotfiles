@@ -14,11 +14,11 @@ select choice in "${options[@]}"
 do
 	case $choice in
 		"Record Screen With Audio (x264+mp3)")
-			ffmpeg -video_size 2256x1504 -framerate 60 -f x11grab -i :0.0 -f pulse -ac 2 -i 52 -c:v libx264 -preset medium -crf 23 -c:a mp3 -b:a 320k "$video_file"
+			ffmpeg -video_size 1366x768 -framerate 60 -f x11grab -i :0.0 -f pulse -ac 2 -i 52 -c:v libx264 -preset medium -crf 23 -c:a mp3 -b:a 320k "$video_file"
 			exit
 			;;
 		"Record Screen With Audio (lossless)")
-			ffmpeg -video_size 2256x1504 -framerate 60 -f x11grab -i :0.0 -f pulse -ac 2 -i 52 -c:v libx264 -preset veryslow -qp 0 -c:a flac "$video_file"
+			ffmpeg -video_size 1366x768 -framerate 60 -f x11grab -i :0.0 -f pulse -ac 2 -i 52 -c:v libx264 -preset veryslow -qp 0 -c:a flac "$video_file"
 			exit
 			;;
 		"Record Framebuffer (/dev/fb0)")
