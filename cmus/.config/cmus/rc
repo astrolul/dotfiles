@@ -1,0 +1,4 @@
+set output_plugin=pulse
+set show_current_bitrate=true
+colorscheme gruvbox
+add ~/music
