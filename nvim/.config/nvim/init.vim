@@ -1,3 +1,15 @@
+call plug#begin()
+
+" List your plugins here
+Plug 'tpope/vim-sensible'
+Plug 'ap/vim-css-color'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'morhetz/gruvbox'
+Plug 'preservim/nerdtree'
+
+call plug#end()
 filetype plugin on
 filetype indent on
 set number
@@ -29,4 +41,4 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 let g:NERDTreeFileLines = 1
 let g:NERDTreeShowHidden = 1
-source ~/coc-example-config.vim
+source ~/.config/nvim/coc-example-config.vim
