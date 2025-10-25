@@ -59,7 +59,8 @@ xrandr --dpi 160
 gentoo-pipewire-launcher &
 feh --bg-fill ~/wallpapers/wallhaven-1pd22w.png
 xrdb -merge ~/.Xresources
-xprop -root -set WM_NAME "   $(uname -r) "
+#xprop -root -set WM_NAME "   $(uname -r) "
+slstatus &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
 dunst --config ~/.config/dunst/dunstrc &

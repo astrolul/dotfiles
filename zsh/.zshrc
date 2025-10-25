@@ -13,7 +13,9 @@ promptinit; prompt gentoo
 # End of lines added by compinstall
 
 # prompt
-PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
+#PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
+# new prompt (only displays first character of username & hostname)
+PS1="%B%F{green}${${(%):-%n}:0:1}@${${(%):-%m}:0:1}%k %B%F{blue}%1~ %# %b%f%k"
 autoload -U colors && colors
 
 # plugins
