@@ -25,7 +25,7 @@ autoload -U colors && colors
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 # aliases
-export EDITOR=vim
+export EDITOR=nvim
 alias mkdir="mkdir -p"
 alias ls="ls -la"
 alias vim="nvim"
