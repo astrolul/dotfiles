@@ -13,7 +13,9 @@ compinit
 # End of lines added by compinstall
 
 # prompt
-PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
+#PS1="%B%F{green}%n@%m%k %B%F{blue}%1~ %# %b%f%k"
+# new prompt (only displays first character of username & hostname)
+PS1="%B%F{green}${${(%):-%n}:0:1}@${${(%):-%m}:0:1}%k %B%F{blue}%1~ %# %b%f%k"
 autoload -U colors && colors
 
 # plugins
@@ -23,9 +25,10 @@ autoload -U colors && colors
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # aliases
-export EDITOR=vim
+export EDITOR=nvim
 alias mkdir="mkdir -p"
 alias ls="ls -la"
+alias vim="nvim"
 
 if [[ $DISPLAY =~ ^:[0-9]+$ ]] && command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t default || tmux new-session -s default

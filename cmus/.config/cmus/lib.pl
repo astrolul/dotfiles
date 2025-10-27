@@ -1,3 +1,13 @@
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/01. Eminem - Intro (Slim Shady).flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/02. Eminem - Low Down, Dirty.flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/03. Eminem - If I Had....flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/04. Eminem - Just Don_t Give A Fuck.flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/05. Eminem - Mommy.flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/06. Eminem - Just The Two Of Us.flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/07. Eminem - No One_s Iller (feat. Swift, Bizarre Kid & Fuzz).flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/08. Eminem - Murder, Murder.flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/09. Eminem - If I Had... (Radio Edit).flac
+/home/astrolul/music/Eminem - Slim Shady EP (1997) [FLAC] [16B-44.1kHz]/10. Eminem - Just Don_t Give A Fuck (Radio Edit).flac
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 1/01. Method Man - Tical.flac
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 1/02. Method Man - Biscuits.flac
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 1/03. Method Man - Bring The Pain.flac
@@ -23,6 +33,16 @@
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 2/10. Method Man - Bring The Pain (Remix).flac
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 2/11. Method Man - Bring The Pain (Instrumental).flac
 /home/astrolul/music/Method Man - Tical (1994) [FLAC] [16B-44.1kHz]/Disc 2/13. Capleton - Wings Of The Morning (Dynamik Duo Mix).flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/01. Nas - The Genesis.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/02. Nas - N.Y. State of Mind.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/03. Nas - Life's a Bitch.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/04. Nas - The World Is Yours.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/05. Nas - Halftime.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/06. Nas - Memory Lane (Sittin' in da Park).flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/07. Nas - One Love.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/08. Nas - One Time 4 Your Mind.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/09. Nas - Represent.flac
+/home/astrolul/music/Nas - Illmatic (1994) [FLAC] [24B-44.1kHz]/10. Nas - It Ain't Hard to Tell.flac
 /home/astrolul/music/The Pharcyde - Labcabincalifornia (1995) [FLAC] [16B-44.1kHz]/Disc 1/01. The Pharcyde - Bullshit.flac
 /home/astrolul/music/The Pharcyde - Labcabincalifornia (1995) [FLAC] [16B-44.1kHz]/Disc 1/02. The Pharcyde - Pharcyde.flac
 /home/astrolul/music/The Pharcyde - Labcabincalifornia (1995) [FLAC] [16B-44.1kHz]/Disc 1/03. The Pharcyde - Groupie Therapy.flac

@@ -56,9 +56,10 @@ fi
 
 xrandr --output LVDS-1 -mode 1366x768 -rate 60.00
 xrandr --dpi 100
-feh --bg-fill ~/wallpapers/ibm-gruvbox.png
+feh --bg-fill ~/wallpapers/wallhaven-1pd22w.png
 xrdb -merge ~/.Xresources
-xprop -root -set WM_NAME "   $(uname -r) "
+#xprop -root -set WM_NAME "   $(uname -r) "
+slstatus &
 picom --config ~/.config/picom/picom.conf &
 unclutter -idle 3 &
 dunst --config ~/.config/dunst/dunstrc &
